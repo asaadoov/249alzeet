@@ -4,6 +4,7 @@ import Demo from "./components/Demo";
 import Footer from "./components/Footer";
 import Terms from './pages/terms'; // Ensure this path points to your Terms component
 import Privacy from './pages/privacy'; // Ensure this path points to your Privacy component
+import { Analytics } from '@vercel/analytics/react';
 
 import "./App.css";
 
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
           </Routes>
+          <Analytics />
         </div>
       </main>
     </BrowserRouter>

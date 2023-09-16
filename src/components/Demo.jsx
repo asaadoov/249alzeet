@@ -127,7 +127,7 @@ const Demo = () => {
           <img src={loader} alt='loader' className='w-20 h-20 object-contain' />
         ) : error ? (
           <p className='font-roboto font-bold text-black text-center'>
-            حصل خطأ وما عارفين ليه ... 
+            حصل خطأ وما تسألي ليه لأني ما عارف ...
             <br />
             <span className='font-satoshi font-normal text-gray-700'>
               {error?.data?.error}
